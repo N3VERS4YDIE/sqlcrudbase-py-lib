@@ -1,4 +1,4 @@
-from . import BaseRepository
+from .base_service import BaseRepository
 
 
 class BaseService:
