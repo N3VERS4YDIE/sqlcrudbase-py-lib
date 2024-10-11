@@ -1,4 +1,10 @@
 class BaseRepository:
+    """
+    A generic repository that provides CRUD operations for a database entity.
+    
+    Args:
+        entity (Model): A Peewee model that represents the database entity.
+    """
     def __init__(self, entity):
         self.entity = entity
 

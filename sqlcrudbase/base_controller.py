@@ -2,7 +2,7 @@ from typing import List
 
 from fastapi import APIRouter, Body, HTTPException
 
-from sqlcrudbase import base_service
+from . import BaseService
 
 
 class BaseController:
@@ -15,7 +15,7 @@ class BaseController:
         service (BaseService): A service that provides CRUD operations for the entity.
     """
 
-    def __init__(self, model, entity, service: base_service):
+    def __init__(self, model, entity, service: BaseService):
         self.model = model
         self.entity = entity
         self.router = APIRouter()

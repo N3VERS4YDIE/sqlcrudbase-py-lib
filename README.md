@@ -123,6 +123,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 ## License
 
-This project is licensed under the [MIT LICENSE](LICENSE).
-
-Here are the official reference repositories for Peewee and Pydantic:
+This project is licensed under the [MIT LICENSE](https://github.com/N3VERS4YDIE/sqlcrudbase-py-lib/blob/main/LICENSE).
