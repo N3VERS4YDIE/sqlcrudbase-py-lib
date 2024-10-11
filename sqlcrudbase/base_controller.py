@@ -2,7 +2,7 @@ from typing import List
 
 from fastapi import APIRouter, Body, HTTPException
 
-from .base_controller import BaseService
+from .base_service import BaseService
 
 
 class BaseController:
