@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="sqlcrudbase",
-    version="0.1.1",
+    version="0.1.2",
     author="Santiago Palacio Vásquez",
     author_email="keycode.santiago@gmail.com",
     url="https://github.com/N3VERS4YDIE/sqlcrudbase-py-lib",
